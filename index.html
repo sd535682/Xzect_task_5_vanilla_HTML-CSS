@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Xzect Labs</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header-view">
+        <!-- Logo & Title -->
+        <a href="#" class="logo_title">
+          <h3>
+            <i class="fa-solid fa-paw h-8 text-amber-600"></i>&nbsp;
+            <span>Tail</span>wag
+          </h3>
+        </a>
+        <!-- Logo & Title -->
+
+        <!-- Routes -->
+        <div class="nav_menu">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#"
+                >Breeds&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-solid fa-chevron-down fa-xs"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                >Prices&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-solid fa-chevron-down fa-xs"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                >Gallery&nbsp;&nbsp;&nbsp;&nbsp;<i
+                  class="fa-solid fa-chevron-down fa-xs"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Routes -->
+        <div class="sidebar">
+          <ul>
+            <li onclick="closeSidebar()">
+              <i class="fa-solid fa-xmark fa-lg"></i>
+            </li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Breeds</a>
+            </li>
+            <li>
+              <a href="#">Prices</a>
+            </li>
+            <li>
+              <a href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Routes -->
+
+        <!-- Login & Signup -->
+        <div class="user-section">
+          <ul>
+            <li>
+              <a href="#" class="login">Login</a>
+            </li>
+            <li>
+              <a href="#" class="custom-button">Sign up free</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Login & Signup -->
+        <!-- Responsive Navbar -->
+        <a href="#" onclick="openSidebar()" class="menu"
+          ><i class="fa-solid fa-bars"></i
+        ></a>
+        <!-- Responsive Navbar -->
+      </div>
+    </header>
+    <!-- header -->
+    <!-- banner 1 -->
+    <div class="banner">
+      <div class="title_subtitle">
+        <div class="banner_title">Keep learning and boost your knowledge</div>
+        <p>
+          Looking to add new skills? We’re a leading destination for online
+          education and world-class education anywhere. We give you many courses
+          and the freedom to learn what you want.
+        </p>
+        <a class="signup" href="">Start a free course</a>
+      </div>
+      <div class="image_container">
+        <!-- <img
+          src="https://masco-html.netlify.app/assets/img/elements/hero-4-start-shape-1.svg" /> -->
+        <img src="./banner1.jpg" />
+      </div>
+    </div>
+    <!-- banner 1 -->
+    <!-- banner 2 -->
+    <div class="banner2">
+      <div class="banner2_title">
+        <h1>Special features that make our online courses the best</h1>
+      </div>
+      <div class="banner2_cards">
+        <div class="cards">
+          <i class="ri-lightbulb-flash-line ri-3x"></i>
+          <h2>New Skills</h2>
+          <p>
+            Learning keeps your mind engaged and active. It helps you get new &
+            knowledge which will eventually help
+          </p>
+        </div>
+        <div class="cards">
+          <i class="ri-presentation-line ri-3x"></i>
+          <h2>Made By Experts</h2>
+          <p>
+            Our library of trusted mentors and lessons covers math, science and
+            other subjects
+          </p>
+        </div>
+        <div class="cards">
+          <i class="ri-store-2-line ri-3x"></i>
+          <h2>Career Opportunities</h2>
+          <p>
+            It refers to any opportunities that take you closer to your career
+            goals achievement
+          </p>
+        </div>
+        <div class="cards">
+          <i class="ri-printer-cloud-line ri-3x"></i>
+          <h2>Lifelong Learning</h2>
+          <p>
+            We create articles, tutorials & webinars with trailblazers in the
+            web community
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- banner 2 -->
+    <!-- banner 3 -->
+    <div class="banner3">
+      <div class="image_container_3">
+        <!-- <img
+          src="https://masco-html.netlify.app/assets/img/elements/hero-4-start-shape-1.svg" /> -->
+        <img src="./banner3.jpg" />
+      </div>
+      <div class="title_subtitle_3">
+        <div class="banner_title_3">
+          Propel your career & expand your knowledge at any level
+        </div>
+        <p>
+          Masco is an online course class that provides various categories of
+          courses ranging from design, photography, marking, and many more. With
+          more than 250 schools and colleges and 50,000+ students from multiple
+          countries. With this curriculum, it is hoped that students can learn
+          with experts in their respective fields anytime & anywhere.
+        </p>
+        <a class="signup" href="">Explore more</a>
+      </div>
+    </div>
+    <!-- banner 3 -->
+    <!-- banner 4 -->
+    <div class="banner4">
+      <div class="banner4_title">
+        <h1>Here are numerous topics that will enhance your skills</h1>
+      </div>
+      <div class="animated_buttons">
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+      </div>
+      <div class="animated_buttons">
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+        <a href="">Sign up free</a>
+      </div>
+    </div>
+    <!-- banner 4 -->
+    <!-- banner 5 -->
+    <div class="banner5">
+      <div>
+        <h1>Browse our courses that are just right for you</h1>
+      </div>
+      <div>
+        <p>
+          Choose from over 20,700 courses and learning paths, with dozens added
+          every week. Top it off with courses that round out your skills and
+          enrich your day-to-day.
+        </p>
+      </div>
+    </div>
+    <!-- banner 5 -->
+    <!-- banner 5 cards -->
+    <div class="banner5_cards">
+      <!-- template 1 -->
+      <div class="banner5_card_template">
+        <div class="b5_image_container">
+          <img
+            src="https://fastly.picsum.photos/id/323/300/200.webp?hmac=UaiDWRfbggn_GxdgwDNNkKAutUVSKc8jPzFRWCo9itU" />
+        </div>
+        <div class="card_title">
+          <div class="card_title_1">
+            <a class="b5_course_title" href=""><h4>Digital Marketing</h4></a>
+            <i class="ri-checkbox-blank-circle-fill ri-xxs"></i>
+            <h4>942 courses</h4>
+          </div>
+          <div class="card_rating">
+            <div><i class="ri-star-smile-fill"></i></div>
+            <h4>4.8</h4>
+          </div>
+        </div>
+        <a class="banner5_cards_heading" href=""
+          >Digital marketing course gives you modern skills</a
+        >
+        <a class="banner5_button" href="">Purchase only $10.00</a>
+      </div>
+      <!-- template 1 -->
+      <!-- template 2 -->
+      <div class="banner5_card_template">
+        <div class="b5_image_container">
+          <img
+            src="https://fastly.picsum.photos/id/431/300/200.webp?hmac=tk2WX33-nPzdhjqSfNa6nu2luiNvExsfTJcNtxfNQhI" />
+        </div>
+        <div class="card_title">
+          <div class="card_title_1">
+            <a class="b5_course_title" href=""><h4>Photography</h4></a>
+            <i class="ri-checkbox-blank-circle-fill ri-xxs"></i>
+            <h4>142 courses</h4>
+          </div>
+          <div class="card_rating">
+            <div><i class="ri-star-smile-fill"></i></div>
+            <h4>3.5</h4>
+          </div>
+        </div>
+        <a class="banner5_cards_heading" href=""
+          >Improve photography skills & you'll learn to use lenses</a
+        >
+        <a class="banner5_button" href="">Purchase for free</a>
+      </div>
+      <!-- template 2 -->
+      <!-- template 3 -->
+      <div class="banner5_card_template">
+        <div class="b5_image_container">
+          <img
+            src="https://fastly.picsum.photos/id/59/300/200.webp?hmac=Vh6cCCPW1UHveoAjJCSuaAk-YdzDBfXDemg9crdH0T0" />
+        </div>
+        <div class="card_title">
+          <div class="card_title_1">
+            <a class="b5_course_title" href=""><h4>C# Language</h4></a>
+            <i class="ri-checkbox-blank-circle-fill ri-xxs"></i>
+            <h4>22 courses</h4>
+          </div>
+          <div class="card_rating">
+            <div><i class="ri-star-smile-fill"></i></div>
+            <h4>5.0</h4>
+          </div>
+        </div>
+        <a class="banner5_cards_heading" href=""
+          >Programing language helps to solve problems logically</a
+        >
+        <a class="banner5_button" href="">Purchase only $650.00</a>
+      </div>
+      <!-- template 3 -->
+      <!-- template 4 -->
+      <div class="banner5_card_template">
+        <div class="b5_image_container">
+          <img
+            src="https://fastly.picsum.photos/id/735/300/200.webp?hmac=Ft-dvhV08rlRhkCw22OSx93QqZGxYqvJj6l20DXj9WM" />
+        </div>
+        <div class="card_title">
+          <div class="card_title_1">
+            <a class="b5_course_title" href=""><h4>Art & Music</h4></a>
+            <i class="ri-checkbox-blank-circle-fill ri-xxs"></i>
+            <h4>502 courses</h4>
+          </div>
+          <div class="card_rating">
+            <div><i class="ri-star-smile-fill"></i></div>
+            <h4>4.9</h4>
+          </div>
+        </div>
+        <a class="banner5_cards_heading" href=""
+          >This course improves your skills in a variety of ways</a
+        >
+        <a class="banner5_button" href="">Purchase for free</a>
+      </div>
+      <!-- template 4 -->
+      <!-- template 5 -->
+      <div class="banner5_card_template">
+        <div class="b5_image_container">
+          <img
+            src="https://fastly.picsum.photos/id/737/300/200.webp?hmac=NgrOCPHzvOAjXLLnNnsOkU9HYn3VhzJ1t-EqreRcwnc" />
+        </div>
+        <div class="card_title">
+          <div class="card_title_1">
+            <a class="b5_course_title" href=""><h4>Lifestyle</h4></a>
+            <i class="ri-checkbox-blank-circle-fill ri-xxs"></i>
+            <h4>755 courses</h4>
+          </div>
+          <div class="card_rating">
+            <div><i class="ri-star-smile-fill"></i></div>
+            <h4>3.0</h4>
+          </div>
+        </div>
+        <a class="banner5_cards_heading" href=""
+          >It helps improve self-esteem & increase life-satisfaction</a
+        >
+        <a class="banner5_button" href="">Purchase only $45.00</a>
+      </div>
+      <!-- template 5 -->
+      <!-- template 6 -->
+      <div class="banner5_card_template">
+        <div class="b5_image_container">
+          <img
+            src="https://fastly.picsum.photos/id/883/300/200.webp?hmac=saJLIjLtNAxTZtQux8cfbnBq2pB7cX9pZtyFmYbGC_I" />
+        </div>
+        <div class="card_title">
+          <div class="card_title_1">
+            <a class="b5_course_title" href=""><h4>UI/UX Design</h4></a>
+            <i class="ri-checkbox-blank-circle-fill ri-xxs"></i>
+            <h4>532 courses</h4>
+          </div>
+          <div class="card_rating">
+            <div><i class="ri-star-smile-fill"></i></div>
+            <h4>4.0</h4>
+          </div>
+        </div>
+        <a class="banner5_cards_heading" href=""
+          >UI/UX design teaches how to make a product attractive</a
+        >
+        <a class="banner5_button" href="">Purchase only $250.00</a>
+      </div>
+      <!-- template 6 -->
+    </div>
+    <!-- banner 5 cards -->
+    <!-- banner 6 -->
+    <div class="banner6">
+      <div class="title_subtitle_6">
+        <div class="banner_title_6">
+          Share your knowledge & experience with others
+        </div>
+        <p>
+          We believe everyone has something to give. Share your unique skills &
+          experience with students around the world by teaching free or paid.
+        </p>
+        <div class="checkbox">
+          <i class="ri-shield-check-fill ri-xl"></i>
+          <h3>Free version can save unlimited workouts & custom routines</h3>
+        </div>
+        <div class="checkbox">
+          <i class="ri-shield-check-fill ri-xl"></i>
+          <h3>Track progress with graphs and automatically back up data</h3>
+        </div>
+        <div class="checkbox">
+          <i class="ri-shield-check-fill ri-xl"></i>
+          <h3>Connect easily with instructor for tips, feedback and support</h3>
+        </div>
+        <a class="b6_button" href="">Become an instructor</a>
+      </div>
+      <div class="image_container_6">
+        <!-- <img
+          src="https://masco-html.netlify.app/assets/img/elements/hero-4-start-shape-1.svg" /> -->
+        <img
+          src="https://fastly.picsum.photos/id/191/650/650.webp?hmac=hRGoH8KtCPdQASvvHkrwDpcW5B6r0j8haBfoarWLZrE" />
+      </div>
+    </div>
+    <!-- banner 6 -->
+    <!-- banner 7 -->
+    <div class="banner7">
+      <div class="banner7_title">
+        <h1>Learners like you achieve their goals through our courses</h1>
+      </div>
+      <div class="b7_reviews">
+        <div class="reviews">
+          <div class="rating">
+            <i class="ri-star-fill ri-2x"></i>
+            <i class="ri-star-fill ri-2x"></i>
+            <i class="ri-star-fill ri-2x"></i>
+            <i class="ri-star-fill ri-2x"></i>
+            <i class="ri-star-fill ri-2x"></i>
+          </div>
+          <p>
+            "The online class professionals were truly a lifesaver. Without
+            their expertise and kind help I could not have achieved the best
+            results in my class. I followed what they said and they helped me
+            get the best grades."
+          </p>
+          <div class="reviewer">
+            <img
+              src="https://fastly.picsum.photos/id/101/50/50.jpg?hmac=gC-jntOHuDZtaqvgqIgh6KOoHtAMJIxC5jOdrB8ILGY" />
+            <div class="reviewer_info">
+              <h4>Kristin Watson</h4>
+              <p>Student of Cambridge University, UK</p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews">
+          <div class="rating">
+            <i class="ri-star-fill ri-2x"></i>
+            <i class="ri-star-fill ri-2x"></i>
+            <i class="ri-star-fill ri-2x"></i>
+            <i class="ri-star-fill ri-2x"></i>
+            <i class="ri-star-fill ri-2x"></i>
+          </div>
+          <p>
+            "I actually wanted to learn more than what was taught. I knew I
+            couldn't be a designer, but I wanted to at least understand some of
+            the basics. Then I bought UI / UX design course & completed the
+            whole course now I am a good designer.”
+          </p>
+          <div class="reviewer">
+            <img
+              src="https://fastly.picsum.photos/id/237/50/50.webp?hmac=bwA9SJSGTIR5YQtZIpooYuDEq0m8RU7V4MA0vURDL3c" />
+            <div class="reviewer_info">
+              <h4>Kristin Watson</h4>
+              <p>Student of Cambridge University, UK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner 7 -->
+    <!-- banner 8 -->
+    <div class="banner8">
+      <div class="FAQ">
+        <h1>Frequently asked questions about our courses</h1>
+        <p>
+          We encourage our students and teachers to ask us any questions
+          regarding our courses and classes. Our skilled mentors are ready to
+          answer all your questions 24/7.
+        </p>
+      </div>
+      <div class="accordion">
+        <div class="accordion-item">
+          <input type="checkbox" id="item1" checked />
+          <label class="accordion-header" for="item1">
+            <h3>Q. How do I register for the online courses?</h3>
+            <span class="icon"></span>
+          </label>
+          <div class="accordion-content">
+            <p>
+              Click the "register yourself" button to go to the online catalog.
+              Click the "add to cart" link for one or more packages of courses.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <input type="checkbox" id="item2" />
+          <label class="accordion-header" for="item2">
+            <h3>Q. What is the time commitment for the courses?</h3>
+            <span class="icon"></span>
+          </label>
+          <div class="accordion-content">
+            <p>
+              Click the "register yourself" button to go to the online catalog.
+              Click the "add to cart" link for one or more packages of courses.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item3" />
+          <label class="accordion-header" for="item3">
+            <h3>Q. Can I receive college credit for these courses?</h3>
+            <span class="icon"></span>
+          </label>
+          <div class="accordion-content">
+            <p>
+              Click the "register yourself" button to go to the online catalog.
+              Click the "add to cart" link for one or more packages of courses.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner 8 -->
+    <!-- banner 9 -->
+    <div class="banner9">
+      <div class="b9">
+        <h1>Start learning today and expand your knowledge at any level</h1>
+        <p>
+          We have easily downloadable learning app on any device and anywhere to
+          experience an exclusive e-learning platform for world-class education.
+        </p>
+        <div class="download">
+          <img
+            src="https://masco-html.netlify.app/assets/img/icons/icon-round-apple-app-store.svg" />
+          <img
+            src="https://masco-html.netlify.app/assets/img/icons/icon-round-google-play-store.svg" />
+        </div>
+      </div>
+    </div>
+    <!-- banner 9 -->
+    <!-- Footer -->
+    <section>
+      <!-- <footer class="section-footer section">
+        <a class="footer_logo_title" href="">
+          <i class="ri-bubble-chart-fill ri-2x"></i>
+          <h1 style="font-family: DM Sans">Kurtis Classroom</h1>
+        </a>
+      </footer> -->
+      <footer class="section-footer">
+        <div class="container-default">
+          <div class="footer-widgets">
+            <div class="footer-widget-item">
+              <a class="footer_logo_title" href="">
+                <i class="ri-bubble-chart-fill ri-2x"></i>
+                <h1 style="font-family: DM Sans">Kurtis Classroom</h1>
+              </a>
+              <p class="footer-about">
+                We are strategic & creative digital agency who are focused on
+                user experience, mobile, social, data gathering and promotional
+                offerings.
+              </p>
+              <a href="mailto:yourdemo@email.com" class="footer-email"
+                >yourdemo@email.com</a
+              >
+              <div class="footer-social">
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="twitter">
+                  <i class="ri-twitter-x-line"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="facebook">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="instagram">
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://www.github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="github">
+                  <i class="ri-github-fill"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-widget-item">
+              <h3 class="footer-widget-title">Primary Pages</h3>
+              <ul class="footer-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-widget-item">
+              <h3 class="footer-widget-title">Utility Pages</h3>
+              <ul class="footer-nav">
+                <li><a href="/signup">Signup</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/error-404">404 Not found</a></li>
+                <li><a href="/reset-password">Password Reset</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-widget-item">
+              <h3 class="footer-widget-title">Resources</h3>
+              <ul class="footer-nav">
+                <li>
+                  <a
+                    href="https://www.example.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Support</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.example.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.example.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Terms & Conditions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.example.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Strategic Finance</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.example.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Video Guide</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="footer-bottom">
+          <div class="container-default">
+            &copy; Copyright 2024, All Rights Reserved by PixcelsThemes
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- Footer -->
+    <script src="script.js"></script>
+  </body>
+</html>
