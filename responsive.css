@@ -1,0 +1,83 @@
+/* Media Queries */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        padding: 0.75rem 1rem;
+    }
+
+    .user-section {
+        display: flex;
+        position: absolute;
+        right: 7rem;
+    }
+
+    .header-view {
+        padding: 0.75rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    header {
+        padding: 1.5rem 2rem;
+    }
+
+    .nav_menu {
+        display: flex;
+    }
+
+    .user-section {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1536px) {
+    header {
+        padding: 1.5rem 2rem;
+    }
+
+    .nav_menu {
+        display: flex;
+    }
+
+    .user-section {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (min-width: 1536px) {
+    header {
+        padding: 1.5rem 2rem;
+    }
+
+    .nav_menu {
+        display: flex;
+    }
+
+    .user-section {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}

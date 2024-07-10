@@ -1,0 +1,50 @@
+:root {
+    --dm-sans: "DM Sans", sans-serif;
+    --inter: "Inter", sans-serif;
+    --text-color: rgba(10, 16, 47, 0.8);
+    --button-color: rgb(75, 42, 173);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
+    font-family: var(--inter);
+    font-size: 1.125rem;
+    color: var(--text-color);
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* button */
+.custom-button {
+    text-align: center;
+    background-color: var(--button-color);
+    color: white;
+    font-weight: 600;
+    padding: 0.8rem 1.8rem;
+    border-radius: 50px;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 0px 5px black;
+    transition-property: all;
+    transition: box-shadow 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.custom-button:hover {
+    box-shadow: 0px 0px black;
+}
