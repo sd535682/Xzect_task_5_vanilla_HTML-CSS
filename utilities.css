@@ -1,50 +1,107 @@
 :root {
-    --dm-sans: "DM Sans", sans-serif;
-    --inter: "Inter", sans-serif;
-    --text-color: rgba(10, 16, 47, 0.8);
-    --button-color: rgb(75, 42, 173);
+  --dm-sans: "DM Sans", sans-serif;
+  --inter: "Inter", sans-serif;
+  --text-color: rgba(10, 16, 47, 0.8);
+  --button-color: rgb(75, 42, 173);
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    height: 100%;
-    width: 100%;
-    /* overflow-x: hidden; */
-    font-family: var(--inter);
-    font-size: 1.125rem;
-    color: var(--text-color);
-    scroll-behavior: smooth;
-    box-sizing: border-box;
+  padding: 0.5rem 0.5rem;
+  line-height: 1.66;
+  height: 100%;
+  width: 100%;
+  max-width: 1536px;
+  font-family: var(--inter);
+  font-size: 1.125rem;
+  color: var(--text-color);
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    color: var(--text-color);
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 /* button */
 .custom-button {
-    text-align: center;
-    background-color: var(--button-color);
-    color: white;
-    font-weight: 600;
-    padding: 0.8rem 1.8rem;
-    border-radius: 50px;
-    border: solid;
-    border-width: 2px;
-    border-color: black;
-    box-shadow: 0px 5px black;
-    transition-property: all;
-    transition: box-shadow 500ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 0.9rem;
+  text-align: center;
+  background-color: var(--button-color);
+  color: white;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+  box-shadow: 0px 5px black;
+  transition-property: all;
+  transition: box-shadow 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .custom-button:hover {
-    box-shadow: 0px 0px black;
+  box-shadow: 0px 0px black;
+}
+.my-section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.grid-reverse-columns {
+  display: grid;
+  gap: 60px;
+  align-items: center;
+  grid-template-columns: 0.8fr 1fr;
+}
+
+.image-container {
+  max-height: 500px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.img-banner {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: var(--dm-sans);
+  color: black;
+  line-height: 1;
+}
+
+.title_1 {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: var(--dm-sans);
+  color: black;
+  line-height: 1;
 }

@@ -1,0 +1,87 @@
+/* --------- header-view ----------  */
+
+.header-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_title i,
+.logo_title h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: darkgoldenrod;
+}
+
+.logo_title span {
+  color: black;
+}
+
+.nav_menu {
+  display: none;
+}
+
+.nav_menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 2rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.user-section {
+  display: none;
+}
+
+.user-section ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: 0.9rem;
+  gap: 1.125rem;
+  font-weight: bold;
+}
+
+.user-section .login {
+  font-weight: 800;
+}
+
+.sidebar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 320px;
+  background-color: white;
+  box-shadow: black 5px 5px 200px;
+  z-index: 9999;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding-top: 1rem;
+}
+
+.sidebar ul li i {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+}
+
+.sidebar li {
+  padding: 0.9rem 1rem;
+  border-bottom: solid 0.5px lightgray;
+}
+
+/* --------- header-view ---------- */
