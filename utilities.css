@@ -16,7 +16,6 @@ body {
   padding: 0.5rem 0.5rem;
   line-height: 1.66;
   height: 100%;
-  width: 100%;
   max-width: 1536px;
   font-family: var(--inter);
   font-size: 1.125rem;
